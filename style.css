@@ -7,10 +7,24 @@
     --third-color-ligth: #def2f1;
 
 }
+h1{
+    color: var(--main-color-dark) !important;
+    font-weight: 800 !important;
+}
+h2{
+    font-weight: 500 !important;
+}
+h3{
+    font-weight: 300 !important;
+}
+*{
+    font-family:'Playfair Display', serif;
+}
 /* body */
 body{
-    background-color: var(--main-color-dark) !important;
+    background-color: var(--third-color-ligth) !important;
     color: var(--third-color-ligth) !important;
+    margin: 0 .3rem 0 .3rem !important;
 }
 /* nav */
 .my-nav{
@@ -37,10 +51,8 @@ body{
 
 /* hero */
 .my-hero-class{
-    background-image: url(https://i.blogs.es/aa91a3/cine-/1366_2000.jpg);
-    background-repeat: none;
-    background-size: cover;
-   
+    
+   background-image: linear-gradient(#17252a, #def2f1);
     
 }
 .titulo h1{
@@ -62,6 +74,9 @@ body{
 }
 .tendencias-class h3, .tendencias-class h2{
     color: var(--third-color-ligth);
+}
+.subtitulo-tendencias h2{
+    color: #17252a !important;
 }
 .cards-container{
     width: 80%;
@@ -88,11 +103,21 @@ body{
 .p-critica{
     width: 80%;
     margin: auto;
+    color: #17252a;
+}
+.tituloCriticas h2{
+    color: var(--main-color-dark) !important;
 }
 /* series */
 .my-cards-series{
     background-color: var(--third-color-ligth);
     color: var(--main-color-dark);
+}
+.series{
+    background-color: var(--main-color-dark);
+}
+.titulo-series h2{
+    
 }
 /* formulario */
 .enviar{
@@ -109,6 +134,14 @@ body{
     width: 8rem !important;
     box-shadow: 3px 3px 3px var(--main-color-dark-transparent);
 }
+.contacto{
+    color: var(--main-color-dark);
+}
+/* footer */
+footer{
+    background-color: var(--main-color-dark);
+}
+
 /* media queries */
 
 
