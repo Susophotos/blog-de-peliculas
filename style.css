@@ -141,6 +141,11 @@ body{
 .contacto{
     color: var(--main-color-dark);
 }
+.form{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
 /* footer */
 footer{
     background-color: var(--main-color-dark);
