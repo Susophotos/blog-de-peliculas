@@ -89,6 +89,26 @@ body{
     width: 80%;
     margin: auto;
 }
+/* series */
+.my-cards-series{
+    background-color: var(--third-color-ligth);
+    color: var(--main-color-dark);
+}
+/* formulario */
+.enviar{
+    width: 5rem !important;
+    background-color: var(--second-color-dark);
+    border-radius: 5px;
+    border: none;
+    color: var(--main-color-dark);
+    transition: 0.3s ease;
+}
+.enviar:hover{
+    color: var(--third-color-ligth);
+    background-color: var(--main-color-ligth);
+    width: 8rem !important;
+    box-shadow: 3px 3px 3px var(--main-color-dark-transparent);
+}
 /* media queries */
 
 
