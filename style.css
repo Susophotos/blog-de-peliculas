@@ -1,0 +1,60 @@
+/* raiz */
+:root {
+    --main-color-dark: #17252a;
+    --main-color-dark-transparent: rgba(23, 37, 42, 0.5);
+    --main-color-ligth: #2b7a7b; 
+    --second-color-dark: #3aafa9;
+    --third-color-ligth: #def2f1;
+
+}
+/* nav */
+.my-nav{
+    background-color:var(--main-color-dark);
+}
+
+/* carousel */
+
+.carousel-text h2{
+    color: var(--third-color-ligth);
+    font-size: 4rem;
+    text-shadow: #2b7a7b 5px  5px 5px;
+}
+.carousel-text p{
+    color: var(--third-color-ligth);
+    text-shadow: #2b7a7b 5px  5px 5px;
+    background-color: var(--main-color-dark-transparent);
+    border-radius: 8px;
+}
+
+
+/* hero */
+.my-hero-class{
+    background-image: url(https://i.blogs.es/aa91a3/cine-/1366_2000.jpg);
+    background-repeat: none;
+    background-size: cover;
+   
+    
+}
+.titulo h1{
+    color: var(--third-color-ligth);
+    
+    text-shadow: #2b7a7b 5px  5px 5px;
+}
+.subtitulo-principal{
+    color: var(--third-color-ligth);
+    font-size: 5rem;
+    text-shadow: #2b7a7b 5px  5px 5px;
+    background-color: var(--main-color-dark-transparent);
+}
+/* cards */
+.cards-container{
+    width: 80%;
+}
+.card-imagen-container{
+    max-height: 135px;
+    overflow: hidden;
+
+}
+/* media queries */
+
+
