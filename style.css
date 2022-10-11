@@ -7,6 +7,11 @@
     --third-color-ligth: #def2f1;
 
 }
+/* body */
+body{
+    background-color: var(--main-color-dark) !important;
+    color: var(--third-color-ligth) !important;
+}
 /* nav */
 .my-nav{
     background-color:var(--main-color-dark);
@@ -24,6 +29,9 @@
     text-shadow: #2b7a7b 5px  5px 5px;
     background-color: var(--main-color-dark-transparent);
     border-radius: 8px;
+}
+.carousel-1{
+    background-color: var(--main-color-dark);
 }
 
 
@@ -46,15 +54,34 @@
     text-shadow: #2b7a7b 5px  5px 5px;
     background-color: var(--main-color-dark-transparent);
 }
-/* cards */
+/* tendencias */
+.tendencias-class{
+    background-color: var(--main-color-dark);
+    padding-bottom: 2rem;
+    color: var(--main-color-dark);
+}
+.tendencias-class h3, .tendencias-class h2{
+    color: var(--third-color-ligth);
+}
 .cards-container{
     width: 80%;
 }
 .card-imagen-container{
-    max-height: 135px;
-    overflow: hidden;
-
+    max-height: 111px;
+    overflow: hidden !important;
+}
+.my-card-1{
+    background-color: var(--third-color-ligth) !important;
+   
+}
+.fiction-class{
+    background-color: var(--main-color-dark) !important;
+    border-radius: 5px;
+}
+.fiction-class h2, .fiction-class h4{
+    color: var(--third-color-ligth) !important;
 }
 /* media queries */
+
 
 
