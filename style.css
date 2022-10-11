@@ -96,6 +96,9 @@ body{
 .fiction-class h2, .fiction-class h4{
     color: var(--third-color-ligth) !important;
 }
+.my-card-style{
+    box-shadow: 3px 3px 3px rgba(58, 175, 169, 0.6);
+}
 /* criticas */
 .imagen-critica{
     width: 80%;
@@ -112,6 +115,7 @@ body{
 .my-cards-series{
     background-color: var(--third-color-ligth);
     color: var(--main-color-dark);
+    box-shadow:  3px 3px 3px rgba(58, 175, 169, 0.6);
 }
 .series{
     background-color: var(--main-color-dark);
